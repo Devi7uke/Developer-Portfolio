@@ -41,7 +41,7 @@ const about = () => {
           <meta name='desciption' content='any words' />
         </title>
       </Head>
-      <main className=' flex w-full flex-col items-center justify-center'>
+      <main className=' flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className=' pt-16'>
           <AnimatedText text='Passion Fuels Purpose!' className='mb-16'/>
           <div className='grid w-full grid-cols-8 gap-16'>
@@ -71,19 +71,19 @@ const about = () => {
                 <span className='inline-block text-7xl font-bold'>
                 <AnimatedNumbers value={50}/>+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>Satisfied Clients</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Satisfied Clients</h2>
               </div>
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold'>
                 <AnimatedNumbers value={40}/>+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>Projects Completed</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects Completed</h2>
               </div>
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold'>
                 <AnimatedNumbers value={40}/>+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>Years of experience</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Years of experience</h2>
               </div>
             </div>
           </div>
@@ -92,9 +92,9 @@ const about = () => {
           <Education />
         </Layout>
       </main>
-      
     </>
   )
 }
 
 export default about
+/*https://youtu.be/Yw7yWHigGKI?t=14106*/
