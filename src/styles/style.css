@@ -1,0 +1,6 @@
+.date::-webkit-calendar-picker-indicator {
+    filter: invert(0.5);
+    border-width: 1px;
+    border-color: red;
+    border-color: aqua;
+}

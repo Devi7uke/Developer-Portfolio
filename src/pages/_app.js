@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import '@/styles/globals.css'
+import '@/styles/style.css'
 import { AnimatePresence } from 'framer-motion'
 
 import {Montserrat} from  "next/font/google"
